@@ -42,5 +42,8 @@
       "last 1 safari version"
     ]
   },
-  "description": "An Ionic project"
+  "description": "Yet another tic-tac-toe project",
+  "devDependencies": {
+    "prettier": "1.18.2"
+  }
 }
