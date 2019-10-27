@@ -30,10 +30,10 @@ const HomeTitle = styled.div`
 const Home: React.FC = () => {
   return (
     <IonPage>
-                             <IonHeader>
+      <IonHeader>
         <IonToolbar>
           <IonTitle>ya-tic-tac-toe</IonTitle>
-                      </IonToolbar>
+        </IonToolbar>
       </IonHeader>
       <IonContent className="ion-padding">
         <HomeTitle>
@@ -42,7 +42,7 @@ const Home: React.FC = () => {
           <em>Coming soon!</em>
         </HomeTitle>
 
-                            <HomeImage src="/assets/ya-ttt-org-icon.png" />
+        <HomeImage src="/assets/ya-ttt-org-icon.png" />
       </IonContent>
     </IonPage>
   );
