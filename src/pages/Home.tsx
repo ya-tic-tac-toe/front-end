@@ -41,7 +41,6 @@ const Home: React.FC = () => {
           <p>Built by Kyle Peeler & Nick Hubbard</p>
           <em>Coming soon!</em>
         </HomeTitle>
-
         <HomeImage src="/assets/ya-ttt-org-icon.png" />
       </IonContent>
     </IonPage>
