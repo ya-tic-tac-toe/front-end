@@ -1,12 +1,12 @@
-import { 
-  IonContent, 
-  IonHeader, 
-  IonPage, 
-  IonTitle, 
-  IonToolbar, 
-} from '@ionic/react';
-import styled from 'styled-components';
-import React from 'react';
+import {
+  IonContent,
+  IonHeader,
+  IonPage,
+  IonTitle,
+  IonToolbar
+} from "@ionic/react";
+import styled from "styled-components";
+import React from "react";
 
 const HomeImage = styled.img`
   width: 200px;
@@ -14,13 +14,14 @@ const HomeImage = styled.img`
   margin-left: auto;
   margin-right: auto;
   display: block;
-`
+`;
 
 const HomeTitle = styled.div`
   font-size: 32px;
   font-weight: bold;
   text-align: center;
-  p, em {
+  p,
+  em {
     font-weight: normal;
     font-size: 16px;
   }
@@ -37,12 +38,9 @@ const Home: React.FC = () => {
       <IonContent className="ion-padding">
         <HomeTitle>
           Yet Another Tic-Tac-Toe
-          <p>
-            Built by Kyle Peeler & Nick Hubbard
-          </p>
+          <p>Built by Kyle Peeler & Nick Hubbard</p>
           <em>Coming soon!</em>
         </HomeTitle>
-      
         <HomeImage src="/assets/ya-ttt-org-icon.png" />
       </IonContent>
     </IonPage>
