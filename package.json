@@ -12,13 +12,13 @@
     "@types/react-router": "^5.1.1",
     "@types/react-router-dom": "^5.1.0",
     "@types/styled-components": "^4.1.19",
-    "eslint": "^6.6.0",
+    "eslint": "^9.39.1",
     "ionicons": "^4.6.3",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-router": "^5.1.0",
     "react-router-dom": "^5.1.0",
-    "react-scripts": "3.2.0",
+    "react-scripts": "5.0.1",
     "styled-components": "^4.4.0",
     "typescript": "3.6.3"
   },
@@ -50,7 +50,7 @@
   },
   "description": "Yet another tic-tac-toe project",
   "devDependencies": {
-    "husky": "^3.0.9",
+    "husky": "^9.1.7",
     "prettier": "1.18.2",
     "pretty-quick": "^2.0.0"
   }
